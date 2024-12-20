@@ -1,0 +1,85 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-weight: 400;
+    font-family: Poppins;
+}
+.container{
+    max-width: 552px;
+    margin: 0 auto;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 0;
+}
+.cards_title{
+    color: rgb(28, 30, 35);
+    font-size: 30px;
+    line-height: 36px;
+    margin: 20px 0 44px 0;
+}
+.cards__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+}
+.card__title {
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    margin-top: 9px;
+}
+.card__price {
+    color: rgb(72, 157, 255);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 1px 0 16px 0;
+}
+.card__button-buy {
+    color: #fff;
+    padding: 16px 50px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    border-radius: 7px;
+    background: rgb(72, 157, 255);
+    &:active{
+        transform: translateY(5px);
+    }
+}
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer__rights {
+    margin-top: 50px;
+}
+.footer__mail {
+    margin: 15px 0;
+}
+.footer__social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+.footer__social {
+}
